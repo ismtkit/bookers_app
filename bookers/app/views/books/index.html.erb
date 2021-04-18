@@ -1,0 +1,13 @@
+<h1>Books</h1>
+<% @books.each do |book| %>
+<dev class="title-body-box">
+  <dev class="title-box">
+    <p>Title</p>
+    <span><%= book.title %></span>
+  </dev>
+  <dev class="body-box">
+    <p>Body</p>
+    <span><%= book.body %></span>
+  </dev>
+</dev>
+<% end %>
